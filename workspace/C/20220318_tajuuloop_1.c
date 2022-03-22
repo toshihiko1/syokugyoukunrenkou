@@ -100,20 +100,20 @@ int main(void) {
     //     data = 0;
     // }
 
-    int count = 5;
-    int age[count];
+    // int count = 5;
+    // int age[count];
 
-    printf("5人分の年齢を入力してください");
-    for(int i = 0; i < count; i++) {
-        scanf("%d",&age[i]);
-    }
+    // printf("5人分の年齢を入力してください");
+    // for(int i = 0; i < count; i++) {
+    //     scanf("%d",&age[i]);
+    // }
 
-    for(int i = 0; i < count; i++) {
-        for(int j = 0; j < age[i]; j++) {
-            printf("*");
-        }
-        printf("\t%d歳\n",age[i]);
-    }
+    // for(int i = 0; i < count; i++) {
+    //     for(int j = 0; j < age[i]; j++) {
+    //         printf("*");
+    //     }
+    //     printf("\t%d歳\n",age[i]);
+    // }
 
     
     
