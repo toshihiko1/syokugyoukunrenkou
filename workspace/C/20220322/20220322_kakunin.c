@@ -3,7 +3,8 @@ int main(void) {
     //4
     int sum = 0;
     int num = 0;
-
+    
+    ///for文
     for(num = 1; num <= 100; num++) {
         sum += num; 
     }
@@ -12,6 +13,8 @@ int main(void) {
     sum = 0;
     num = 1;
 
+
+    //while文
     while(num <= 100){
         sum += num;
         num++;
@@ -21,6 +24,7 @@ int main(void) {
     sum = 0;
     num = 0;
 
+    //do while文
     do{
         num++;
         sum += num;
