@@ -1,31 +1,16 @@
-#include <stdio.h> 
+#include <stdio.h>
 int main(void) {
 
-    
-    
+    int i;
+    int num[] = {1,2,3,4,5};
+    int *a = num;
 
-    
+    for(i = 0; i < 5; i++) {
+    printf("%d", *a++);
+    printf("%d", num[0]);
+    }
 
+    printf("%d", num[0]);
 
-    // int a;
-    // a %= 6;
-    // printf("%d\n", a);
-    // a += 3;
-    // printf("%d\n", a);
-    // a *= (b+1);
-    // printf("%d\n", a);
-    // a += b;
-    // printf("%d\n", a);
-
-    // int a = 5, b = 3, c = 6, ans = 1;
-    // ans += a+b;
-    // printf("%d",ans);
-    // ans = a%b;
-    // printf("%d",ans);
-    // ans = a = b = c+1;
-    // printf("%d",ans);
-    // ans = a -= b;
-    // printf("%d",ans);
-     
     return 0;
 }
